@@ -3,6 +3,10 @@
     {
       "source": "/speak-spanish-guides/:path*",
       "destination": "https://spanishwithro.framer.website/speak-spanish-guides/:path*"
+    },
+    {
+      "source": "/((?!.*\\.).*)",
+      "destination": "/index.html"
     }
   ]
 }
