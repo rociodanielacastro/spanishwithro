@@ -1,4 +1,8 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites": [
+    {
+      "source": "/speak-spanish-guides/:path*",
+      "destination": "https://spanishwithro.framer.website/speak-spanish-guides/:path*"
+    }
+  ]
 }
