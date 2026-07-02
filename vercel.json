@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/speak-spanish-guides/:slug",
-      "destination": "/api/article"
+      "destination": "/api/article?path=/speak-spanish-guides/:slug"
     },
     {
       "source": "/((?!.*\\.).*)",
