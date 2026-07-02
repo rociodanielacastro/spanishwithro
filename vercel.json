@@ -3,10 +3,6 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/speak-spanish-guides/:slug",
-      "destination": "/api/article?path=/speak-spanish-guides/:slug"
-    },
-    {
       "source": "/((?!.*\\.).*)",
       "destination": "/index.html"
     }
