@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/speak-spanish-guides/:slug",
-      "destination": "/speak-spanish-guides/:slug/index.html"
-    }
-  ]
-}
