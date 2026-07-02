@@ -1,8 +1,28 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/((?!speak-spanish-guides)(?!.*\\.).*)",
-      "destination": "/index.html"
+      "src": "/speak-spanish-guides/real-argentine-spanish-world-cup",
+      "dest": "/speak-spanish-guides/real-argentine-spanish-world-cup/index.html"
+    },
+    {
+      "src": "/speak-spanish-guides/ai-learning-spanish-not-enough",
+      "dest": "/speak-spanish-guides/ai-learning-spanish-not-enough/index.html"
+    },
+    {
+      "src": "/speak-spanish-guides/practice-speaking-spanish-alone",
+      "dest": "/speak-spanish-guides/practice-speaking-spanish-alone/index.html"
+    },
+    {
+      "src": "/speak-spanish-guides/how-long-to-learn-spanish",
+      "dest": "/speak-spanish-guides/how-long-to-learn-spanish/index.html"
+    },
+    {
+      "src": "/speak-spanish-guides/spanish-survival-phrases",
+      "dest": "/speak-spanish-guides/spanish-survival-phrases/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
