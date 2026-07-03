@@ -14,7 +14,11 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!.*\\.).*)",
+      "source": "/speak-spanish-guides/:slug",
+      "destination": "/api/article?path=/speak-spanish-guides/:slug"
+    },
+    {
+      "source": "/((?!api/)(?!.*\\.).*)",
       "destination": "/index.html"
     }
   ]
